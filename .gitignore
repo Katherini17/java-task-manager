@@ -21,3 +21,5 @@ frontend/dist/
 application-local.properties
 application-local.yml
 src/main/resources/certs/
+certs/
+docker-compose.yml
