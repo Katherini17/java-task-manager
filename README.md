@@ -16,7 +16,7 @@
 
 A REST API for task management. The application allows users to create, update, and track tasks, assign them to other users, and categorize resources using customizable statuses and labels.
 
-### [🚀 Live Demo on Render](https://java-project-99-5ygj.onrender.com)
+### [🚀 Live Demo](https://tasks.8630975-yw332907.twc1.net/#/task_statuses)
 
 ---
 
