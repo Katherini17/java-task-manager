@@ -18,6 +18,10 @@ A REST API for task management. The application allows users to create, update, 
 
 ### [🚀 Live Demo](https://tasks.8630975-yw332907.twc1.net/#/task_statuses)
 
+### Default Admin Credentials
+* **Login:** `hexlet@example.com`
+* **Password:** `qwerty`
+
 ---
 
 ## Functional Overview
@@ -69,10 +73,6 @@ The project follows the OpenAPI standard. Detailed documentation of all endpoint
 * **OpenAPI Specification (JSON):** `http://localhost:8080/v3/api-docs`
 
 Use these resources to explore the full list of available operations, including filtering, sorting, and authentication.
-
-### Default Admin Credentials
-* **Login:** `hexlet@example.com`
-* **Password:** `qwerty`
 
 ---
 
