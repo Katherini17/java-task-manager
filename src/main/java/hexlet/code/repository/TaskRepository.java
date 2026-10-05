@@ -26,6 +26,10 @@ public interface TaskRepository extends
     @EntityGraph(attributePaths = {"taskStatus", "labels", "assignee"})
     List<Task> findAll();
 
+    @Override
+    @EntityGraph(attributePaths = {"taskStatus", "labels", "assignee"})
+    Page<Task> findAll(Specification<Task> spec, Pageable pageable);
+
     boolean existsByAssigneeId(Long userId);
     boolean existsByTaskStatusId(Long statusId);
     boolean existsByLabelsId(Long labelId);
